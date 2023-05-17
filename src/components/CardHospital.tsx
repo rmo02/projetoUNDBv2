@@ -2,6 +2,7 @@ import { Box, HStack, Text, VStack } from "native-base";
 import { FontAwesome5 } from "@expo/vector-icons";
 
 
+
 export function CardHospital () {
     return (
         <VStack pt={10} paddingX={10}>
@@ -10,7 +11,7 @@ export function CardHospital () {
           rounded="lg"
           bg={{
               linearGradient: {
-                colors: ["gray.400", "gray.600"],
+                colors: ["primary.400", "primary.500"],
                 start: [0, 0],
                 end: [1, 0],
               },
@@ -31,7 +32,7 @@ export function CardHospital () {
           rounded="lg"
           bg={{
               linearGradient: {
-                colors: ["gray.400", "gray.600"],
+                colors: ["primary.400", "primary.500"],
                 start: [0, 0],
                 end: [1, 0],
               },
@@ -52,7 +53,7 @@ export function CardHospital () {
           rounded="md"
           bg={{
               linearGradient: {
-                colors: ["gray.400", "gray.600"],
+                colors: ["primary.400", "primary.500"],
                 start: [0, 0],
                 end: [1, 0],
               },
@@ -73,7 +74,7 @@ export function CardHospital () {
           rounded="md"
           bg={{
               linearGradient: {
-                colors: ["gray.400", "gray.600"],
+                colors: ["primary.400", "primary.500"],
                 start: [0, 0],
                 end: [1, 0],
               },

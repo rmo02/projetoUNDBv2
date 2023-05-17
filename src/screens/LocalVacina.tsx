@@ -100,7 +100,7 @@ export function Localvacina() {
         closeOnPressMask={false}
         customStyles={{
           container: {
-            backgroundColor: "#FFF",
+            backgroundColor: "#fafafa",
             borderTopLeftRadius: 28,
             borderTopRightRadius: 28,
             elevation: 30,
