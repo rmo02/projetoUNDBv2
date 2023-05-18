@@ -1,5 +1,8 @@
 import { Box, HStack, Image, Text } from "native-base";
 import fichaMedico from "../../assets/fichaMedico.png";
+import agenda from '../../assets/agenda.png';
+import exames from '../../assets/exames.png';
+
 
 export function Menu() {
   return (
@@ -19,7 +22,7 @@ export function Menu() {
         <Image
           h={20}
           w={20}
-          source={fichaMedico}
+          source={exames}
           alt="ficha medica"
           resizeMode="contain"
         />
@@ -30,7 +33,7 @@ export function Menu() {
         <Image
           h={20}
           w={20}
-          source={fichaMedico}
+          source={agenda}
           alt="ficha medica"
           resizeMode="contain"
         />
